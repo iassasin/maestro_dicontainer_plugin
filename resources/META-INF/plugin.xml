@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>ru.sinair.phpstorm.dicontainer</id>
+  <name>Plugin for maestroprog's DI container</name>
+  <version>1.0</version>
+  <vendor email="assasin@sinair.ru" url="https://sinair.ru/">Assasin</vendor>
+
+  <description><![CDATA[
+      Autocompletion for DI container<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+
+  <depends>com.jetbrains.php</depends>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.jetbrains.php">
+    <typeProvider3 implementation="ru.sinair.phpstorm.dicontainer.DIContainerTypeProvider"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
