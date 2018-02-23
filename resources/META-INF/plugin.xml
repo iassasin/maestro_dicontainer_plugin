@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>ru.sinair.phpstorm.dicontainer</id>
   <name>Plugin for maestroprog's DI container</name>
-  <version>1.0</version>
+  <version>1.0.4</version>
   <vendor email="assasin@sinair.ru" url="https://sinair.ru/">Assasin</vendor>
 
   <description><![CDATA[
